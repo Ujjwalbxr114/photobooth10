@@ -1,0 +1,39 @@
+body {
+  /* width: 100%; */
+  /* height: 400px; */
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  background-image: url("../../img/bgm.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+  #phone{
+    position: absolute;
+    
+    height: auto;
+    
+
+  }
+
+#buttom{
+    position: absolute;
+    width: 21%;
+    height: auto;
+    right: 39.5%;
+    top: 84%;
+}
+
+.container_content{
+   
+    width:40%;
+    border-radius: 5px;
+}
+@media (max-width:767px){
+	.container_content{
+	
+		width:85%;
+		border-radius: 5px;
+	}
+}

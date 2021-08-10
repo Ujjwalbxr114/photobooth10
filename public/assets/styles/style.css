@@ -1,0 +1,117 @@
+main {
+    margin: 0;
+    padding: 0;
+    height: 100;
+    background-image: url("../../img/bgm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+
+  #vid{
+    /* margin-bottom: 10%; */
+    margin-top: 3%;
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    
+  }
+#can{
+  /* position: fixed; */
+  display: none;
+}
+  
+  
+
+  /* #vid{
+    width: 258px;
+    height: 258px;
+    position: absolute;
+    top: 18%;
+   right:160%;
+    border: 3px solid wheat;
+    /* position: absolute;
+    left: 30.5%;
+    bottom: 47%;  
+
+    border: 3px solid wheat;
+  }
+  .sub{
+    position:absolute;
+    left: 47%;
+    bottom: 40%;
+  }
+  @media (max-width:2560px){
+    #vid{
+      width: 938px;
+        height: 750px;
+        top: 18%;
+        right: 297%;
+      position: absolute;
+      top: 21%;
+      left: 21%;
+    }
+    .sub{
+      position:absolute;
+      left: 40%;
+      bottom: 33%;
+    }
+  } */
+  /* @media (max-width:1440px){
+    #vid{
+      width: 484px;
+      height: 357px;
+      top: 18%;
+       position: absolute;
+      top: 21%;
+      left: 21%; 
+    }
+    .sub{
+      position:absolute;
+      left: 40%;
+      bottom: 33%;
+    }
+  }
+  @media (max-width:1024px){
+    #vid{
+      width: 360px;
+      height: 268px;
+      top: 18%;
+      position: absolute;
+      top: 21%;
+      left: 21%;
+    }
+    .sub{
+      position:absolute;
+      left: 40%;
+      bottom: 33%;
+    }
+  }
+  @media (max-width:768px){
+    #vid{
+      width: 258px;
+      height: 258px;
+      top: 18%;
+      position: absolute;
+      top: 21%;
+      left: 21%;
+    }
+    .sub{
+      position:absolute;
+      left: 40%;
+      bottom: 33%;
+    }
+  }
+  @media (max-width:600px){
+    #vid{
+      width: 258px;
+      height: 258px;
+      top: 18%;
+      position: absolute;
+      top: 21%;
+      left: 21%;
+    }
+    .sub{
+      position:absolute;
+      left: 40%;
+      bottom: 33%;
+    }
+  } */

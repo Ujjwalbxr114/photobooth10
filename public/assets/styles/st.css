@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body {
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+
+
+}
+   
+
+.container_content{
+    background-color: rgb(255, 255, 255);
+    width:fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    /* margin-top: 9rem; */
+}
+.image{
+    margin-bottom:20px;
+  }
+@media (max-width:992px){
+    body{
+        background: linear-gradient(45deg, greenyellow, dodgerblue);
+        /* width: 100%; */
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-repeat: no-repeat;
+        overflow: scroll;
+    }
+}
+
+#vid{
+    /* margin-bottom: 10%; */
+    margin-top: 3%;
+    aspect-ratio: attr(width) / attr(height);
+    object-fit: cover;
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    
+  }
+#can{
+  /* position: fixed; */
+  display: none;
+  
+}
+  
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+
