@@ -2,7 +2,7 @@
 let video;
 
 function setup(){
-    let canv =  createCanvas(280,240);
+    let canv =  createCanvas(200,200);
     // canv.style(100);
     canv.elt.setAttribute('id', 'can');
     // canv.style.position = 'fixed';
@@ -38,17 +38,7 @@ function setup(){
   };
 
   function draw(){
-    background(200)
-     push();
-    // translate(video.width,height);  ---
-    translate(video);
-    scale(-1.0,1.0);
-    var aspectRatio = video.height/video.width;
-    var h = width* aspectRatio;
-     image(video, 0, 0, width, h);
-    // image(video, 0, 0,width, h);
-    pop();
+    background(51)
+    image(capture,width/2,height/2, width*1.3, height);
 }
-
-
   
