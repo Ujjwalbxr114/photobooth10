@@ -2,7 +2,7 @@
 let video;
 
 function setup(){
-    let canv =  createCanvas(280,200);
+    let canv =  createCanvas(280,280);
     // canv.style(100);
     canv.elt.setAttribute('id', 'can');
     // canv.style.position = 'fixed';
